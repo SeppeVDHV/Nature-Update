@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "natureupdate:block/water_boiler_on"
+    },
+    "lit=false": {
+      "model": "natureupdate:block/water_boiler_off"
+    }
+  }
+}

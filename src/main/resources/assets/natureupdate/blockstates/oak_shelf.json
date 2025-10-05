@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "facing=north,type=unpowered": {
+      "model": "natureupdate:block/oak_shelf"
+    },
+    "facing=north,type=powered_single": {
+      "model": "natureupdate:block/oak_shelf_powered"
+    },
+    "facing=north,type=powered_left": {
+      "model": "natureupdate:block/oak_shelf_powered_left"
+    },
+    "facing=north,type=powered_right": {
+      "model": "natureupdate:block/oak_shelf_powered_right"
+    },
+    "facing=north,type=powered_middle": {
+      "model": "natureupdate:block/oak_shelf_powered_middle"
+    },
+    "facing=east,type=unpowered": {
+      "model": "natureupdate:block/oak_shelf",
+      "y": 90
+    },
+    "facing=east,type=powered_single": {
+      "model": "natureupdate:block/oak_shelf_powered",
+      "y": 90
+    },
+    "facing=east,type=powered_left": {
+      "model": "natureupdate:block/oak_shelf_powered_left",
+      "y": 90
+    },
+    "facing=east,type=powered_right": {
+      "model": "natureupdate:block/oak_shelf_powered_right",
+      "y": 90
+    },
+    "facing=east,type=powered_middle": {
+      "model": "natureupdate:block/oak_shelf_powered_middle",
+      "y": 90
+    },
+    "facing=south,type=unpowered": {
+      "model": "natureupdate:block/oak_shelf",
+      "y": 180
+    },
+    "facing=south,type=powered_single": {
+      "model": "natureupdate:block/oak_shelf_powered",
+      "y": 180
+    },
+    "facing=south,type=powered_left": {
+      "model": "natureupdate:block/oak_shelf_powered_left",
+      "y": 180
+    },
+    "facing=south,type=powered_right": {
+      "model": "natureupdate:block/oak_shelf_powered_right",
+      "y": 180
+    },
+    "facing=south,type=powered_middle": {
+      "model": "natureupdate:block/oak_shelf_powered_middle",
+      "y": 180
+    },
+    "facing=west,type=unpowered": {
+      "model": "natureupdate:block/oak_shelf",
+      "y": 270
+    },
+    "facing=west,type=powered_single": {
+      "model": "natureupdate:block/oak_shelf_powered",
+      "y": 270
+    },
+    "facing=west,type=powered_left": {
+      "model": "natureupdate:block/oak_shelf_powered_left",
+      "y": 270
+    },
+    "facing=west,type=powered_right": {
+      "model": "natureupdate:block/oak_shelf_powered_right",
+      "y": 270
+    },
+    "facing=west,type=powered_middle": {
+      "model": "natureupdate:block/oak_shelf_powered_middle",
+      "y": 270
+    }
+  }
+}

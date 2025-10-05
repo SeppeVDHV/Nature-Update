@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "natureupdate:mold_filler_type",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/boots_bronze"
+        },
+        "when": "bronze"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/boots_copper"
+        },
+        "when": "copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/boots_diamond"
+        },
+        "when": "diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/boots_emerald"
+        },
+        "when": "emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/boots_iron"
+        },
+        "when": "iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/boots_gold"
+        },
+        "when": "gold"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "natureupdate:item/boots_mold"
+    }
+  }
+}

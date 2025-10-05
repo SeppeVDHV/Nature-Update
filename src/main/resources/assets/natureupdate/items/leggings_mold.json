@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "natureupdate:mold_filler_type",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/leggings_bronze"
+        },
+        "when": "bronze"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/leggings_copper"
+        },
+        "when": "copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/leggings_diamond"
+        },
+        "when": "diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/leggings_emerald"
+        },
+        "when": "emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/leggings_iron"
+        },
+        "when": "iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/leggings_gold"
+        },
+        "when": "gold"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "natureupdate:item/leggings_mold"
+    }
+  }
+}

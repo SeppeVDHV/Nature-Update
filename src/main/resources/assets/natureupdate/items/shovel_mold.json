@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "natureupdate:mold_filler_type",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/shovel_bronze"
+        },
+        "when": "bronze"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/shovel_copper"
+        },
+        "when": "copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/shovel_diamond"
+        },
+        "when": "diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/shovel_emerald"
+        },
+        "when": "emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/shovel_iron"
+        },
+        "when": "iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/shovel_gold"
+        },
+        "when": "gold"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "natureupdate:item/shovel_mold"
+    }
+  }
+}

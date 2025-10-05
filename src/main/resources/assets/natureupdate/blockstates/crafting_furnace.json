@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,lit=false": {
+      "model": "natureupdate:block/crafting_furnace",
+      "y": 90
+    },
+    "facing=east,lit=true,fuel_type=normal": {
+      "model": "natureupdate:block/crafting_furnace_on",
+      "y": 90
+    },
+    "facing=east,lit=true,fuel_type=soul": {
+      "model": "natureupdate:block/crafting_furnace_on_soul",
+      "y": 90
+    },
+    "facing=east,lit=true,fuel_type=ender": {
+      "model": "natureupdate:block/crafting_furnace_on_end",
+      "y": 90
+    },
+    "facing=north,lit=false": {
+      "model": "natureupdate:block/crafting_furnace"
+    },
+    "facing=north,lit=true,fuel_type=normal": {
+      "model": "natureupdate:block/crafting_furnace_on"
+    },
+    "facing=north,lit=true,fuel_type=soul": {
+      "model": "natureupdate:block/crafting_furnace_on_soul"
+    },
+    "facing=north,lit=true,fuel_type=ender": {
+      "model": "natureupdate:block/crafting_furnace_on_end"
+    },
+    "facing=south,lit=false": {
+      "model": "natureupdate:block/crafting_furnace",
+      "y": 180
+    },
+    "facing=south,lit=true,fuel_type=normal": {
+      "model": "natureupdate:block/crafting_furnace_on",
+      "y": 180
+    },
+    "facing=south,lit=true,fuel_type=soul": {
+      "model": "natureupdate:block/crafting_furnace_on_soul",
+      "y": 180
+    },
+    "facing=south,lit=true,fuel_type=ender": {
+      "model": "natureupdate:block/crafting_furnace_on_end",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "natureupdate:block/crafting_furnace",
+      "y": 270
+    },
+    "facing=west,lit=true,fuel_type=normal": {
+      "model": "natureupdate:block/crafting_furnace_on",
+      "y": 270
+    },
+    "facing=west,lit=true,fuel_type=soul": {
+      "model": "natureupdate:block/crafting_furnace_on_soul",
+      "y": 270
+    },
+    "facing=west,lit=true,fuel_type=ender": {
+      "model": "natureupdate:block/crafting_furnace_on_end",
+      "y": 270
+    }
+  }
+}

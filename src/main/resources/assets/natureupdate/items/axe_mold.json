@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "natureupdate:mold_filler_type",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/axe_bronze"
+        },
+        "when": "bronze"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/axe_copper"
+        },
+        "when": "copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/axe_diamond"
+        },
+        "when": "diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/axe_emerald"
+        },
+        "when": "emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/axe_iron"
+        },
+        "when": "iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/axe_gold"
+        },
+        "when": "gold"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "natureupdate:item/axe_mold"
+    }
+  }
+}

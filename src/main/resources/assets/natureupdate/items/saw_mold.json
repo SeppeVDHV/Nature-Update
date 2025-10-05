@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "natureupdate:mold_filler_type",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/saw_bronze"
+        },
+        "when": "bronze"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/saw_copper"
+        },
+        "when": "copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/saw_diamond"
+        },
+        "when": "diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/saw_emerald"
+        },
+        "when": "emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/saw_iron"
+        },
+        "when": "iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "natureupdate:item/filled_mold/saw_gold"
+        },
+        "when": "gold"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "natureupdate:item/saw_mold"
+    }
+  }
+}

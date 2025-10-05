@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "natureupdate:block/cherry_chair"
+    },
+    "facing=east": {
+      "model": "natureupdate:block/cherry_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "natureupdate:block/cherry_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "natureupdate:block/cherry_chair",
+      "y": 270
+    }
+  }
+}

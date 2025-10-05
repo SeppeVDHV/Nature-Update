@@ -1,0 +1,10 @@
+{
+  "electrodrome": {
+    "sounds": [
+      {
+        "name": "natureupdate:electrodrome",
+        "stream": true
+      }
+    ]
+  }
+}

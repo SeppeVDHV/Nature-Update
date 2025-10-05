@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "natureupdate:block/acacia_chair"
+    },
+    "facing=east": {
+      "model": "natureupdate:block/acacia_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "natureupdate:block/acacia_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "natureupdate:block/acacia_chair",
+      "y": 270
+    }
+  }
+}

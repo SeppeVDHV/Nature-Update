@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "natureupdate:block/spruce_stage0"
+    },
+    "age=1": {
+      "model": "natureupdate:block/spruce_stage1"
+    },
+    "age=2": {
+      "model": "natureupdate:block/spruce_stage2"
+    },
+    "age=3": {
+      "model": "natureupdate:block/spruce_stage3"
+    },
+    "age=4": {
+      "model": "natureupdate:block/spruce_stage4"
+    },
+    "age=5": {
+      "model": "natureupdate:block/spruce_stage5"
+    },
+    "age=6": {
+      "model": "natureupdate:block/spruce_stage6"
+    },
+    "age=7": {
+      "model": "natureupdate:block/spruce_stage7"
+    }
+  }
+}
