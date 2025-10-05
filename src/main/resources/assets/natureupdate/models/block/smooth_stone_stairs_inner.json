@@ -1,0 +1,7 @@
+{
+  "parent": "natureupdate:block/edged_stairs_inner",
+  "textures": {
+    "texture": "natureupdate:block/smooth_stone_stairs",
+    "particle": "minecraft:block/smooth_stone"
+  }
+}

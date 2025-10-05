@@ -1,0 +1,11 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "natureupdate:block/water_boiler_model",
+  "textures": {
+    "main_side": "natureupdate:block/water_boiler_side",
+    "main_top": "natureupdate:block/water_boiler_top",
+    "main_bottom": "natureupdate:block/water_boiler_bottom",
+    "heater": "natureupdate:block/water_boiler_heater_off",
+    "particle": "natureupdate:block/water_boiler_bottom"
+  }
+}

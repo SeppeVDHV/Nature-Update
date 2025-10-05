@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/stonecutter",
+    "textures": {
+        "particle": "natureupdate:block/woodcutter_bottom",
+        "bottom": "natureupdate:block/woodcutter_bottom",
+        "top": "natureupdate:block/woodcutter_top",
+        "side": "natureupdate:block/woodcutter_side",
+        "saw": "natureupdate:block/woodcutter_saw"
+    },
+    "render_type": "cutout"
+}
