@@ -41,7 +41,7 @@ displayName="Nature Update" #mandatory
 #credits="" #optional
 
 # A text field displayed in the mod UI
-authors="Seppe Vandenhoven" #optional
+authors="SeppeVDH" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description="This mod changes the general look of the nature in the overworld and nether with new blocks, biomes, metals and animals."
