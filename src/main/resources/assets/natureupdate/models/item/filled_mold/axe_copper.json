@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "natureupdate:item/axe_mold",
+    "layer1": "natureupdate:item/tool_part/axe/copper"
+  }
+}
