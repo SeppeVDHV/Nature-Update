@@ -1,0 +1,7 @@
+{
+  "parent": "natureupdate:block/corn_model",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "crop": "natureupdate:block/corn_stage5"
+  }
+}

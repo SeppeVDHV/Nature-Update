@@ -1,0 +1,8 @@
+{
+  "parent": "natureupdate:block/shelf",
+  "textures": {
+    "inside": "natureupdate:block/oak_shelf_inside_powered_left",
+    "outside": "natureupdate:block/oak_shelf_outside",
+    "particle": "natureupdate:block/oak_shelf_outside"
+  }
+}

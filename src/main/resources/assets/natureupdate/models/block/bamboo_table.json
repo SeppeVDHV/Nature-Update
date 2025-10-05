@@ -1,0 +1,7 @@
+{
+  "parent": "natureupdate:block/table",
+  "textures": {
+    "table": "minecraft:block/bamboo_planks",
+    "particle": "minecraft:block/bamboo_planks"
+  }
+}

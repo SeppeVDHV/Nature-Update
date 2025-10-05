@@ -1,0 +1,7 @@
+{
+  "parent": "natureupdate:block/table",
+  "textures": {
+    "table": "minecraft:block/crimson_planks",
+    "particle": "minecraft:block/crimson_planks"
+  }
+}

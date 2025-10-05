@@ -1,0 +1,7 @@
+{
+  "parent": "natureupdate:block/chair",
+  "textures": {
+    "chair": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/oak_planks"
+  }
+}
