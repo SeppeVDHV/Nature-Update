@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:crafting_furnace",
+  "criteria": {
+    "nether_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:nether_essence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.nether_essence.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:nether_essence"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.nether_essence"
+    }
+  },
+  "requirements": [
+    [
+      "nether_essence"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

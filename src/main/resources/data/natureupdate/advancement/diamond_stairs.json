@@ -1,0 +1,39 @@
+{
+  "parent": "natureupdate:emerald_door",
+  "criteria": {
+    "diamond_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:diamond_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.diamond_stairs.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:diamond_stairs"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.diamond_stairs"
+    }
+  },
+  "requirements": [
+    [
+      "diamond_stairs"
+    ]
+  ],
+  "rewards": {
+    "experience": 80
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:crafting_furnace",
+  "criteria": {
+    "bronze_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:bronze_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.bronze_ingot.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:bronze_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.bronze_ingot"
+    }
+  },
+  "requirements": [
+    [
+      "bronze_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

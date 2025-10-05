@@ -1,0 +1,45 @@
+{
+  "parent": "natureupdate:bronze_ingot",
+  "criteria": {
+    "bronze_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:bronze_helmet"
+          },
+          {
+            "items": "natureupdate:bronze_chestplate"
+          },
+          {
+            "items": "natureupdate:bronze_leggings"
+          },
+          {
+            "items": "natureupdate:bronze_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.bronze_armor.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:bronze_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.bronze_armor"
+    }
+  },
+  "requirements": [
+    [
+      "bronze_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:rice",
+  "criteria": {
+    "corn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:corn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.corn.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:corn"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.corn"
+    }
+  },
+  "requirements": [
+    [
+      "corn"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

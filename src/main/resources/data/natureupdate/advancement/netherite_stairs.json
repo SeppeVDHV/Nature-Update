@@ -1,0 +1,39 @@
+{
+  "parent": "natureupdate:diamond_stairs",
+  "criteria": {
+    "netherite_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:netherite_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.netherite_stairs.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:netherite_stairs"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.netherite_stairs"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_stairs"
+    ]
+  ],
+  "rewards": {
+    "experience": 150
+  },
+  "sends_telemetry_event": true
+}

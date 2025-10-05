@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:raw_tin",
+  "criteria": {
+    "tin_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:tin_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.tin_ingot.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:tin_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.tin_ingot"
+    }
+  },
+  "requirements": [
+    [
+      "tin_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,69 @@
+{
+  "parent": "natureupdate:mold",
+  "criteria": {
+    "molds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:axe_mold"
+          },
+          {
+            "items": "natureupdate:pickaxe_mold"
+          },
+          {
+            "items": "natureupdate:sword_mold"
+          },
+          {
+            "items": "natureupdate:shovel_mold"
+          },
+          {
+            "items": "natureupdate:hoe_mold"
+          },
+          {
+            "items": "natureupdate:saw_mold"
+          },
+          {
+            "items": "natureupdate:shears_mold"
+          },
+          {
+            "items": "natureupdate:sickle_mold"
+          },
+          {
+            "items": "natureupdate:helmet_mold"
+          },
+          {
+            "items": "natureupdate:chestplate_mold"
+          },
+          {
+            "items": "natureupdate:leggings_mold"
+          },
+          {
+            "items": "natureupdate:boots_mold"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.molds.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:helmet_mold"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.molds"
+    }
+  },
+  "requirements": [
+    [
+      "molds"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

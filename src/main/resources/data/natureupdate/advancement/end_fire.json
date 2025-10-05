@@ -1,0 +1,30 @@
+{
+  "parent": "natureupdate:ender_essence",
+  "criteria": {
+    "end_fire": {
+      "conditions": {},
+      "trigger": "natureupdate:end_fire_light"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.end_fire.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:end_campfire"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.end_fire"
+    }
+  },
+  "requirements": [
+    [
+      "end_fire"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

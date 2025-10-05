@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:crafting_furnace",
+  "criteria": {
+    "copper_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.copper_ingot.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.copper_ingot"
+    }
+  },
+  "requirements": [
+    [
+      "copper_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

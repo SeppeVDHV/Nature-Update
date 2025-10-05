@@ -1,0 +1,66 @@
+{
+  "parent": "natureupdate:copper_ingot",
+  "criteria": {
+    "copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:copper_axe"
+          },
+          {
+            "items": "natureupdate:copper_pickaxe"
+          },
+          {
+            "items": "natureupdate:copper_shovel"
+          },
+          {
+            "items": "natureupdate:copper_sword"
+          },
+          {
+            "items": "natureupdate:copper_hoe"
+          },
+          {
+            "items": "natureupdate:copper_helmet"
+          },
+          {
+            "items": "natureupdate:copper_chestplate"
+          },
+          {
+            "items": "natureupdate:copper_leggings"
+          },
+          {
+            "items": "natureupdate:copper_boots"
+          },
+          {
+            "items": "natureupdate:copper_saw"
+          },
+          {
+            "items": "natureupdate:copper_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.copper_pack.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:copper_axe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.copper_pack"
+    }
+  },
+  "requirements": [
+    [
+      "copper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

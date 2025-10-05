@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:table",
+  "criteria": {
+    "chair": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#natureupdate:chair"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.chair.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:spruce_chair"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.chair"
+    }
+  },
+  "requirements": [
+    [
+      "chair"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,96 @@
+{
+  "parent": "natureupdate:emerald_armor",
+  "criteria": {
+    "emerald_items": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:emerald_helmet"
+          },
+          {
+            "items": "natureupdate:emerald_chestplate"
+          },
+          {
+            "items": "natureupdate:emerald_leggings"
+          },
+          {
+            "items": "natureupdate:emerald_boots"
+          },
+          {
+            "items": "natureupdate:emerald_sword"
+          },
+          {
+            "items": "natureupdate:emerald_shovel"
+          },
+          {
+            "items": "natureupdate:emerald_axe"
+          },
+          {
+            "items": "natureupdate:emerald_pickaxe"
+          },
+          {
+            "items": "natureupdate:emerald_hoe"
+          },
+          {
+            "items": "minecraft:emerald_block"
+          },
+          {
+            "items": "minecraft:emerald"
+          },
+          {
+            "items": "natureupdate:emerald_stairs"
+          },
+          {
+            "items": "natureupdate:emerald_slab"
+          },
+          {
+            "items": "natureupdate:emerald_door"
+          },
+          {
+            "items": "natureupdate:emerald_trapdoor"
+          },
+          {
+            "items": "natureupdate:emerald_button"
+          },
+          {
+            "items": "natureupdate:emerald_pressure_plate"
+          },
+          {
+            "items": "natureupdate:emerald_horse_armor"
+          },
+          {
+            "items": "natureupdate:emerald_grate"
+          },
+          {
+            "items": "natureupdate:emerald_saw"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.emerald_pack.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:emerald_grate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.emerald_pack"
+    }
+  },
+  "requirements": [
+    [
+      "emerald_items"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

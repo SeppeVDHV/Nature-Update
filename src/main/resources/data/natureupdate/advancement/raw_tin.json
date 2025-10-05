@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:root",
+  "criteria": {
+    "raw_tin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:raw_tin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.raw_tin.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:raw_tin"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.raw_tin"
+    }
+  },
+  "requirements": [
+    [
+      "raw_tin"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:crafting_furnace",
+  "criteria": {
+    "mold": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#natureupdate:molds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.mold.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:helmet_mold"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.mold"
+    }
+  },
+  "requirements": [
+    [
+      "mold"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

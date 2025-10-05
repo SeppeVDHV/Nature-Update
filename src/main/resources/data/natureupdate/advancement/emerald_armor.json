@@ -1,0 +1,45 @@
+{
+  "parent": "natureupdate:crafting_furnace",
+  "criteria": {
+    "emerald_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:emerald_helmet"
+          },
+          {
+            "items": "natureupdate:emerald_chestplate"
+          },
+          {
+            "items": "natureupdate:emerald_leggings"
+          },
+          {
+            "items": "natureupdate:emerald_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.emerald_armor.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:emerald_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.emerald_armor"
+    }
+  },
+  "requirements": [
+    [
+      "emerald_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

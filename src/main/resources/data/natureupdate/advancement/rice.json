@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:root",
+  "criteria": {
+    "rice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:rice_seeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.rice.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:rice_seeds"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.rice"
+    }
+  },
+  "requirements": [
+    [
+      "rice"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

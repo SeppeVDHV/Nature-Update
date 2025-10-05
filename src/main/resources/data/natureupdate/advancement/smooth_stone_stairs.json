@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:mosaic",
+  "criteria": {
+    "stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:smooth_stone_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.smooth_stone_stairs.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:smooth_stone_stairs"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.smooth_stone_stairs"
+    }
+  },
+  "requirements": [
+    [
+      "stairs"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

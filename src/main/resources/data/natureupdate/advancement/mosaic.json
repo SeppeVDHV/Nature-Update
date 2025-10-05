@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:root",
+  "criteria": {
+    "mosaic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#natureupdate:mosaic"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.mosaic.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:oak_mosaic"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.mosaic"
+    }
+  },
+  "requirements": [
+    [
+      "mosaic"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

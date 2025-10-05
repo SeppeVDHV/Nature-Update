@@ -1,0 +1,48 @@
+{
+  "parent": "natureupdate:corn",
+  "criteria": {
+    "berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:blackberry"
+          },
+          {
+            "items": "natureupdate:raspberry"
+          },
+          {
+            "items": "natureupdate:strawberry"
+          },
+          {
+            "items": "minecraft:sweet_berries"
+          },
+          {
+            "items": "minecraft:glow_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.berries.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:strawberry"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.berries"
+    }
+  },
+  "requirements": [
+    [
+      "berries"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

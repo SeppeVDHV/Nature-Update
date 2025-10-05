@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:mosaic",
+  "criteria": {
+    "emerald_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:emerald_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.emerald_door.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:emerald_door"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.emerald_door"
+    }
+  },
+  "requirements": [
+    [
+      "emerald_door"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "A": "minecraft:diamond"
+  },
+  "pattern": [
+    "AAA",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:air"
+  }
+}

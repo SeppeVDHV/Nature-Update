@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "natureupdate:water_boiler_poi",
+      "required": false
+    },
+    {
+      "id": "natureupdate:crafting_furnace_poi",
+      "required": false
+    }
+  ]
+}

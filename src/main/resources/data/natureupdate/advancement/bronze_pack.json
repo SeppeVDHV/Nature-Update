@@ -1,0 +1,66 @@
+{
+  "parent": "natureupdate:bronze_armor",
+  "criteria": {
+    "bronze": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:bronze_axe"
+          },
+          {
+            "items": "natureupdate:bronze_pickaxe"
+          },
+          {
+            "items": "natureupdate:bronze_shovel"
+          },
+          {
+            "items": "natureupdate:bronze_sword"
+          },
+          {
+            "items": "natureupdate:bronze_hoe"
+          },
+          {
+            "items": "natureupdate:bronze_helmet"
+          },
+          {
+            "items": "natureupdate:bronze_chestplate"
+          },
+          {
+            "items": "natureupdate:bronze_leggings"
+          },
+          {
+            "items": "natureupdate:bronze_boots"
+          },
+          {
+            "items": "natureupdate:bronze_saw"
+          },
+          {
+            "items": "natureupdate:bronze_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.bronze_pack.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:bronze_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.bronze_pack"
+    }
+  },
+  "requirements": [
+    [
+      "bronze"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

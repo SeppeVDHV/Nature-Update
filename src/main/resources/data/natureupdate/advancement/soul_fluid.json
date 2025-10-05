@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:soul_essence",
+  "criteria": {
+    "soul_fluid": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:soul_fluid_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.soul_fluid.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:soul_fluid_bucket"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.soul_fluid"
+    }
+  },
+  "requirements": [
+    [
+      "soul_fluid"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

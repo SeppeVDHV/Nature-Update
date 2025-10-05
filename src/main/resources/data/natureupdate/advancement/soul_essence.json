@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:nether_essence",
+  "criteria": {
+    "soul_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:soul_essence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.soul_essence.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:soul_essence"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.soul_essence"
+    }
+  },
+  "requirements": [
+    [
+      "soul_essence"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

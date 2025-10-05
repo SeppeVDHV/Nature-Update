@@ -1,0 +1,99 @@
+{
+  "parent": "natureupdate:netherite_stairs",
+  "criteria": {
+    "netherite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_ingot"
+          },
+          {
+            "items": "minecraft:netherite_shovel"
+          },
+          {
+            "items": "minecraft:netherite_sword"
+          },
+          {
+            "items": "minecraft:netherite_hoe"
+          },
+          {
+            "items": "minecraft:netherite_axe"
+          },
+          {
+            "items": "minecraft:netherite_pickaxe"
+          },
+          {
+            "items": "minecraft:netherite_helmet"
+          },
+          {
+            "items": "minecraft:netherite_chestplate"
+          },
+          {
+            "items": "minecraft:netherite_leggings"
+          },
+          {
+            "items": "minecraft:netherite_boots"
+          },
+          {
+            "items": "minecraft:netherite_block"
+          },
+          {
+            "items": "natureupdate:netherite_stairs"
+          },
+          {
+            "items": "natureupdate:netherite_slab"
+          },
+          {
+            "items": "natureupdate:netherite_door"
+          },
+          {
+            "items": "natureupdate:netherite_trapdoor"
+          },
+          {
+            "items": "natureupdate:netherite_button"
+          },
+          {
+            "items": "natureupdate:netherite_pressure_plate"
+          },
+          {
+            "items": "natureupdate:netherite_grate"
+          },
+          {
+            "items": "natureupdate:netherite_horse_armor"
+          },
+          {
+            "items": "natureupdate:netherite_saw"
+          },
+          {
+            "items": "minecraft:netherite_scrap"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.netherite_pack.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.netherite_pack"
+    }
+  },
+  "requirements": [
+    [
+      "netherite"
+    ]
+  ],
+  "rewards": {
+    "experience": 230
+  },
+  "sends_telemetry_event": true
+}

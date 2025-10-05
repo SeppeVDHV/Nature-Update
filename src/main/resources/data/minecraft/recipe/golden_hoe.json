@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "A": "natureupdate:golden_hoe_head"
+  },
+  "pattern": [
+    "A",
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_hoe"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:end_fire",
+  "criteria": {
+    "end_fluid": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:end_fluid_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.end_fluid.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:end_fluid_bucket"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.end_fluid"
+    }
+  },
+  "requirements": [
+    [
+      "end_fluid"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

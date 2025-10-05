@@ -1,0 +1,36 @@
+{
+  "parent": "natureupdate:crafting_furnace",
+  "criteria": {
+    "water_boiler": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:water_boiler"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.water_boiler.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:water_boiler"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.water_boiler"
+    }
+  },
+  "requirements": [
+    [
+      "water_boiler"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

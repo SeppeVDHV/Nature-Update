@@ -1,0 +1,38 @@
+{
+  "parent": "natureupdate:crafting_furnace",
+  "criteria": {
+    "emerald_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "natureupdate:emerald_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.natureupdate.emerald_hoe.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "natureupdate:emerald_hoe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.natureupdate.emerald_hoe"
+    }
+  },
+  "requirements": [
+    [
+      "emerald_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
