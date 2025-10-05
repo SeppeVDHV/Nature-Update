@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.seppevdh.natureupdate.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "natureupdate.refmap.json",
+  "mixins": [
+    "FireBlockMixin",
+    "VanillaBlocksMixin",
+    "FlintAndSteelMixin",
+    "animal/SheepMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
