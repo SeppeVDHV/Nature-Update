@@ -1,0 +1,8 @@
+{
+  "parent": "natureupdate:block/beetroots_model",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "crop": "minecraft:block/beetroots_stage1",
+    "particle": "minecraft:block/beetroots_stage1"
+  }
+}
